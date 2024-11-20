@@ -1,25 +1,33 @@
-**Munchify**
+# Munchify
 
 
 Munchify is a sleek and modern restaurant website built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). This platform combines functionality and aesthetics to provide an engaging user experience for restaurant enthusiasts and food lovers.
 
 
 
-Tech Stack:
+## Tech Stack:
+
 React.js
-CSS/SCSS or Tailwind CSS (if applicable)
+
+Tailwind CSS 
+
 Axios (for API calls)
 
-Getting Started
+### Getting Started
 Follow these steps to run the project locally:
 
-1. Clone the repository:
+__1. Clone the repository:__
 
-git clone https://github.com/ishitaaagupta/munchify.git
+git clone 
+
+https://github.com/ishitaaagupta/munchify-Frontend.git
+
 cd munchify
 
-2. Install dependencies:
+__2. Install dependencies:__
+
 npm install
 
-3. Run 
+__3. Run__
+
 npm run dev
