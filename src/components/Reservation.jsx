@@ -18,7 +18,7 @@ const Reservation = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "https://munchify-backend.vercel.app/reservation/send",
+        "https://vercel.com/ishitaaaguptas-projects/munchify-backend/GgE7PoNdY4DiJqoqea1Yi1oQTUXy/reservation/send",
         { firstName, lastName, email, phone, date, time },
         {
           headers: {
