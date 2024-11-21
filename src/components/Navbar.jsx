@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
       <nav>
         <div className="logo">
-        <img src="public\logobg.png" alt="logo" />
+        <img src="\logobg.png" alt="logo" />
         </div>
         <div className={show ? "navLinks showmenu" : "navLinks"}>
           <div className="links">

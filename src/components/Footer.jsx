@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container">
         <div className="banner">
           <div className="left">
-          <img className="logo" src="public\logobg.png" alt="logo" /> 
+          <img className="logo" src="\logobg.png" alt="logo" /> 
           </div>
           <div className="right">
             <p>Sector 125 , Noida</p>
