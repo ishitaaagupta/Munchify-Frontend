@@ -14,8 +14,8 @@ const Reservation = () => {
   const [phone, setPhone] = useState(0);
   const navigate = useNavigate();
 
-  // const url = "https://localhost:3000";
-  const BACKEND_URL = "https://munchify-frontend.vercel.app";
+  // const BACKEND_URL = "https://localhost:3000";
+  const BACKEND_URL = "https://munchify-backend.vercel.app";
   const handleReservation = async (e) => {
     e.preventDefault();
     try {
@@ -26,7 +26,7 @@ const Reservation = () => {
           headers: {
             "Content-Type": "application/json",
           },
-          // withCredentials: true,
+          withCredentials: true,
         }
       );
       toast.success(data.message);
