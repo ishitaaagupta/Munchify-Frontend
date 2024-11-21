@@ -14,8 +14,8 @@ const Reservation = () => {
   const [phone, setPhone] = useState(0);
   const navigate = useNavigate();
 
-  const url = "https://localhost:3000";
-  const BACKEND_URL = url || "https://munchify-backend.vercel.app";
+  // const url = "https://localhost:3000";
+  const BACKEND_URL = "https://munchify-backend.vercel.app";
   const handleReservation = async (e) => {
     e.preventDefault();
     try {
