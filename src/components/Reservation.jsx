@@ -26,7 +26,7 @@ const Reservation = () => {
           headers: {
             "Content-Type": "application/json",
           },
-          withCredentials: true,
+          // withCredentials: true,
         }
       );
       toast.success(data.message);
